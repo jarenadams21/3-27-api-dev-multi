@@ -20,6 +20,7 @@ The boilerplate includes a basic Express server setup with ES Modules, featuring
 - Basic Routing: Includes a root route and a /users route to demonstrate basic routing and differing return types in Express.
 - JSON Middleware: Uses express.json() middleware to handle JSON request payloads.
 - 404 Error Handling: Implements a simple middleware to handle unmatched routes.
+- Git Ignore: don't push private or large numbers of files! (Currently ignores /node_modules and .env for security!)
 
 ## Route Types:
 * For a [POST] request, the payload typically includes the data you want to send to the server (the details of a new user you want to create for example)
