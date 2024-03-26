@@ -3,6 +3,16 @@
 >_ backend folder : expressjs server for api calls
 >_ frontend folder : components & utility functions
 
+## Component Overview
+* /chakra
+    - Navbar.js : Navbar component containing user specific information.. what's that broken button about?
+* /components
+    - MessageList.js : renders the messages array retrieved from the express server (localhost:8080/messages)
+    - SpinningLogo.js : MULTI logo, spins if clicked
+    - UserInput.js : currently takes any user text-based input and appends to the message list.
+* /media
+    - images used in the app
+
 ## Clone and initialize the repository to your local machine:
 
 1. git clone https://github.com/your-username/your-repository-name.git
