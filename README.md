@@ -1,5 +1,8 @@
 # MULTI Code 4 Ca$h --> 3/27 "API DEVELOPMENT"
 
+>_ backend folder : expressjs server for api calls
+>_ frontend folder : components & utility functions
+
 ## Clone and initialize the repository to your local machine:
 
 1. git clone https://github.com/your-username/your-repository-name.git
