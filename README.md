@@ -17,11 +17,12 @@
 
 1. git clone https://github.com/your-username/your-repository-name.git
 2. Navigate to the cloned directory: cd your-repository-name
-3. 'npm install' and 'npm start' in backend and frontend folder
-4. Start the server: npm start
+3. 'npm install' and 'npm start' in backend folder
+3. 'npm install' and 'npm start' in frontend folder
+4. Start hacking!
 
-The frontend server will start running on http://localhost:3000
-The backend server will start running on http://localhost:8080
+- >_ The frontend server will start running on http://localhost:3000
+- >_ The backend server will start running on http://localhost:8080
 
 ## Introduction
 This repository contains a simple Express server boilerplate using ES Module syntax, it's an ideal starting point focusing on a minimalistic and clean structure.
