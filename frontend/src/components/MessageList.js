@@ -36,6 +36,7 @@ export default function MessageList({ messages }) {
       },
     };
   
+    // Message list changes like buttons to delete or edit could go here...
     return (
       <div style={styles.container}>
         {messages.length > 0 ? (
