@@ -8,8 +8,8 @@
 * /chakra
     - Navbar.js : Navbar component containing user specific information.. what's that broken button about?
 * /components
-    - MessageList.js : renders the messages array retrieved from the express server (localhost:8080/messages)
-    - SpinningLogo.js : MULTI logo, spins if clicked
+    - MessageList.js : renders the messages array retrieved from the express server (localhost:8080/messages).
+    - SpinningLogo.js : MULTI logo, spins if clicked.
     - UserInput.js : currently takes any user text-based input and appends to the message list.
 * /media
     - images used in the app
@@ -38,5 +38,5 @@ All backend code is available in app.js in the /backend directory.
 - Git Ignore: don't push private or large numbers of files! (Currently ignores /node_modules and .env for security!)
 
 ## Sample Route Types:
-* For a [POST] request, the payload typically includes the data you want to send to the server (the details of a new user you want to create for example)
+* For a [POST] request, the payload typically includes the data you want to send to the server (the details of a new user you want to create for example).
 * In a [GET] request, there is no body payload, and the data of interest is often requested in the query string or route parameters.
