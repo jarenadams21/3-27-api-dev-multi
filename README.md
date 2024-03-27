@@ -1,13 +1,28 @@
 # MULTI Code 4 Ca$h --> 3/27 "API DEVELOPMENT"
 
+- >_ backend folder : expressjs server for api calls
+- >_ frontend folder : components & utility functions
+
+## Component Overview
+* /chakra
+    - Navbar.js : Navbar component containing user specific information.. what's that broken button about?
+* /components
+    - MessageList.js : renders the messages array retrieved from the express server (localhost:8080/messages)
+    - SpinningLogo.js : MULTI logo, spins if clicked
+    - UserInput.js : currently takes any user text-based input and appends to the message list.
+* /media
+    - images used in the app
+
 ## Clone and initialize the repository to your local machine:
 
 1. git clone https://github.com/your-username/your-repository-name.git
 2. Navigate to the cloned directory: cd your-repository-name
-3. npm install
-4. Start the server: npm start
+3. 'npm install' and 'npm start' in backend folder
+3. 'npm install' and 'npm start' in frontend folder
+4. Start hacking!
 
-The server will start running on http://localhost:3000
+- >_ The frontend server will start running on http://localhost:3000
+- >_ The backend server will start running on http://localhost:8080
 
 ## Introduction
 This repository contains a simple Express server boilerplate using ES Module syntax, it's an ideal starting point focusing on a minimalistic and clean structure.

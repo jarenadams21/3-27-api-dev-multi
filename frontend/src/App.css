@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+
+.spin {
+  animation: spinAnimation 2s infinite linear;
+}
+
+@keyframes spinAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
