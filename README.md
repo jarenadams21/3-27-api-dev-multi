@@ -1,7 +1,7 @@
 # MULTI Code 4 Ca$h --> 3/27 "API DEVELOPMENT"
 
->_ backend folder : expressjs server for api calls
->_ frontend folder : components & utility functions
+- >_ backend folder : expressjs server for api calls
+- >_ frontend folder : components & utility functions
 
 ## Component Overview
 * /chakra
@@ -17,10 +17,11 @@
 
 1. git clone https://github.com/your-username/your-repository-name.git
 2. Navigate to the cloned directory: cd your-repository-name
-3. npm install
+3. 'npm install' and 'npm start' in backend and frontend folder
 4. Start the server: npm start
 
-The server will start running on http://localhost:3000
+The frontend server will start running on http://localhost:3000
+The backend server will start running on http://localhost:8080
 
 ## Introduction
 This repository contains a simple Express server boilerplate using ES Module syntax, it's an ideal starting point focusing on a minimalistic and clean structure.
