@@ -28,8 +28,7 @@
 ## Introduction
 This repository contains a simple Express server boilerplate using ES Module syntax, it's an ideal starting point focusing on a minimalistic and clean structure.
 
-## Boilerplate Overview
-The boilerplate includes a basic Express server setup with ES Modules, featuring a couple of routes and a middleware for handling 404 errors.
+All backend code is available in app.js in the /backend directory.
 
 ## Key Features:
 - ES Module Syntax: Utilizes import and export instead of CommonJS's require.
@@ -38,6 +37,6 @@ The boilerplate includes a basic Express server setup with ES Modules, featuring
 - 404 Error Handling: Implements a simple middleware to handle unmatched routes.
 - Git Ignore: don't push private or large numbers of files! (Currently ignores /node_modules and .env for security!)
 
-## Route Types:
+## Sample Route Types:
 * For a [POST] request, the payload typically includes the data you want to send to the server (the details of a new user you want to create for example)
 * In a [GET] request, there is no body payload, and the data of interest is often requested in the query string or route parameters.
