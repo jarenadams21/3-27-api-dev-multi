@@ -2,6 +2,7 @@
 
 - >_ backend folder : expressjs server for api calls
 - >_ frontend folder : components & utility functions
+- >_ challenge document : https://docs.google.com/document/d/1cOau84OFrqIxnQQ8yyzPWDgpKxWbUabPaUgm4Il3sWE/edit?usp=sharing
 
 ## Component Overview
 * /chakra
